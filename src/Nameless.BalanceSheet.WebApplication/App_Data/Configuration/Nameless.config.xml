@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+    <Section name="NHibernate" alias="default">
+        <Parameter name="dialect">
+            <Value><![CDATA[NHibernate.Dialect.SQLiteDialect,NHibernate]]></Value>
+        </Parameter>
+        <Parameter name="driver">
+            <Value><![CDATA[NHibernate.Driver.SQLite20Driver,NHibernate]]></Value>
+        </Parameter>
+        <Parameter name="keywordsAutoImport">
+            <Value><![CDATA[auto-quote]]></Value>
+        </Parameter>
+        <Parameter name="isolationLevel">
+            <Value><![CDATA[Unspecified]]></Value>
+        </Parameter>
+        <Parameter name="timeout">
+            <Value><![CDATA[5]]></Value>
+        </Parameter>
+        <Parameter name="logFormattedSql">
+            <Value><![CDATA[true]]></Value>
+        </Parameter>
+        <Parameter name="logSqlInConsole">
+            <Value><![CDATA[true]]></Value>
+        </Parameter>
+        <Parameter name="autoCommentSql">
+            <Value><![CDATA[true]]></Value>
+        </Parameter>
+        <Parameter name="batchSize">
+            <Value><![CDATA[16]]></Value>
+        </Parameter>
+        <Parameter name="hqlToSqlSubstitutions">
+            <Value><![CDATA[true 1, false 0, yes 'Y', no 'N']]></Value>
+        </Parameter>
+        <Parameter name="connectionReleaseMode">
+            <Value><![CDATA[OnClose]]></Value>
+        </Parameter>
+        <Parameter name="connectionString">
+            <Value><![CDATA[Data Source=|DataDirectory|database.s3db; Version=3; Page Size=8192;]]></Value>
+        </Parameter>
+        <Parameter name="hbm2dllAuto">
+            <Value><![CDATA[create]]></Value>
+        </Parameter>
+    </Section>
+</Configuration>

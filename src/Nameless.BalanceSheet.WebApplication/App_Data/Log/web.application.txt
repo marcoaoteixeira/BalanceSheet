@@ -1,0 +1,99 @@
+2016-03-14 18:24:58,560 [20] INFO  Nameless.BalanceSheet.WebApplication.Controllers.HomeController [(null)] - Get@HomeController
+2016-03-14 18:35:15,473 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] - [session-id=5b492a99-031f-447e-bb11-72b80a7ed5b0] running ISession.Dispose()
+2016-03-14 18:35:15,487 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] - [session-id=5b492a99-031f-447e-bb11-72b80a7ed5b0] executing real Dispose(True)
+2016-03-14 18:35:15,489 [7] DEBUG NHibernate.Impl.SessionImpl [(null)] - closing session
+2016-03-14 18:35:15,490 [7] DEBUG NHibernate.AdoNet.AbstractBatcher [(null)] - running BatcherImpl.Dispose(true)
+2016-03-14 18:35:15,491 [7] DEBUG NHibernate.Connection.ConnectionProvider [(null)] - Closing connection
+2016-03-14 18:36:05,245 [12] INFO  NHibernate.Cfg.Configuration [(null)] - checking mappings queue
+2016-03-14 18:36:05,247 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing one-to-many association mappings
+2016-03-14 18:36:05,248 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing one-to-one association property references
+2016-03-14 18:36:05,249 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing foreign key constraints
+2016-03-14 18:36:05,250 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing filters (second pass)
+2016-03-14 18:36:05,253 [12] INFO  NHibernate.Dialect.Dialect [(null)] - Using dialect: NHibernate.Dialect.SQLiteDialect
+2016-03-14 18:36:05,255 [12] INFO  NHibernate.Dialect.Dialect [(null)] - Using dialect: NHibernate.Dialect.SQLiteDialect
+2016-03-14 18:36:05,258 [12] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory [(null)] - Using dialect defined converter
+2016-03-14 18:36:05,259 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Generate SQL with comments: enabled
+2016-03-14 18:36:05,260 [12] INFO  NHibernate.Connection.ConnectionProvider [(null)] - Configuring ConnectionProvider
+2016-03-14 18:36:05,260 [12] INFO  NHibernate.Driver.DriverBase [(null)] - setting ADO.NET command timeout to 5 seconds
+2016-03-14 18:36:05,261 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2016-03-14 18:36:05,262 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Optimize cache for minimal puts: False
+2016-03-14 18:36:05,262 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Connection release mode: on_close
+2016-03-14 18:36:05,263 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Default batch fetch size: 1
+2016-03-14 18:36:05,263 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - echoing all SQL to stdout
+2016-03-14 18:36:05,264 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Statistics: disabled
+2016-03-14 18:36:05,264 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Deleted entity synthetic identifier rollback: disabled
+2016-03-14 18:36:05,264 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2016-03-14 18:36:05,265 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+2016-03-14 18:36:05,270 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2016-03-14 18:36:05,271 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Order SQL inserts for batching: enabled
+2016-03-14 18:36:05,271 [12] DEBUG NHibernate.Cfg.SettingsFactory [(null)] - Wrap result sets: disabled
+2016-03-14 18:36:05,274 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2016-03-14 18:36:05,276 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Using Isolation Level: Unspecified
+2016-03-14 18:36:05,277 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Default entity-mode: Poco
+2016-03-14 18:36:05,278 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Named query checking : enabled
+2016-03-14 18:36:05,279 [12] INFO  NHibernate.Cfg.SettingsFactory [(null)] - Ignoring exceptions in BeforeTransactionCompletion : disabled
+2016-03-14 18:36:05,279 [12] INFO  NHibernate.Impl.SessionFactoryImpl [(null)] - building session factory
+2016-03-14 18:36:05,280 [12] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] - Session factory constructed with filter configurations : {}
+2016-03-14 18:36:05,281 [12] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'adonet.batch_size'='16', 'command_timeout'='5', 'connection.driver_class'='NHibernate.Driver.SQLite20Driver', 'dialect'='NHibernate.Dialect.SQLiteDialect', 'format_sql'='True', 'hbm2ddl.keywords'='auto-quote', 'connection.isolation'='Unspecified', 'query.substitutions'='true 1, false 0, yes 'Y', no 'N'', 'connection.release_mode'='on_close', 'show_sql'='True', 'use_sql_comments'='True', 'connection.connection_string'='Data Source=|DataDirectory|database.s3db; Version=3; Page Size=8192;', 'hbm2ddl.auto'='create'}
+2016-03-14 18:36:05,282 [12] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] - Obtaining IDbConnection from Driver
+2016-03-14 18:36:05,284 [12] DEBUG NHibernate.Connection.ConnectionProvider [(null)] - Closing connection
+2016-03-14 18:36:05,285 [12] INFO  NHibernate.Dialect.Dialect [(null)] - Using dialect: NHibernate.Dialect.SQLiteDialect
+2016-03-14 18:36:05,286 [12] INFO  NHibernate.Dialect.Dialect [(null)] - Using dialect: NHibernate.Dialect.SQLiteDialect
+2016-03-14 18:36:05,286 [12] INFO  NHibernate.Connection.ConnectionProvider [(null)] - Configuring ConnectionProvider
+2016-03-14 18:36:05,287 [12] INFO  NHibernate.Driver.DriverBase [(null)] - setting ADO.NET command timeout to 5 seconds
+2016-03-14 18:36:05,287 [12] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] - Obtaining IDbConnection from Driver
+2016-03-14 18:36:05,288 [12] DEBUG NHibernate.Connection.ConnectionProvider [(null)] - Closing connection
+2016-03-14 18:36:05,289 [12] DEBUG NHibernate.Impl.SessionFactoryObjectFactory [(null)] - registered: f3d4b4b153644e79ade0cdc8972c2473(unnamed)
+2016-03-14 18:36:05,289 [12] INFO  NHibernate.Impl.SessionFactoryObjectFactory [(null)] - no name configured
+2016-03-14 18:36:05,289 [12] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] - Instantiated session factory
+2016-03-14 18:36:05,290 [12] INFO  NHibernate.Dialect.Dialect [(null)] - Using dialect: NHibernate.Dialect.SQLiteDialect
+2016-03-14 18:36:05,290 [12] INFO  NHibernate.Dialect.Dialect [(null)] - Using dialect: NHibernate.Dialect.SQLiteDialect
+2016-03-14 18:36:05,291 [12] INFO  NHibernate.Connection.ConnectionProvider [(null)] - Configuring ConnectionProvider
+2016-03-14 18:36:05,291 [12] INFO  NHibernate.Driver.DriverBase [(null)] - setting ADO.NET command timeout to 5 seconds
+2016-03-14 18:36:05,292 [12] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] - Obtaining IDbConnection from Driver
+2016-03-14 18:36:05,293 [12] DEBUG NHibernate.Connection.ConnectionProvider [(null)] - Closing connection
+2016-03-14 18:36:05,293 [12] INFO  NHibernate.Dialect.Dialect [(null)] - Using dialect: NHibernate.Dialect.SQLiteDialect
+2016-03-14 18:36:05,294 [12] INFO  NHibernate.Cfg.Configuration [(null)] - checking mappings queue
+2016-03-14 18:36:05,294 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing one-to-many association mappings
+2016-03-14 18:36:05,295 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing one-to-one association property references
+2016-03-14 18:36:05,295 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing foreign key constraints
+2016-03-14 18:36:05,295 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing filters (second pass)
+2016-03-14 18:36:05,296 [12] INFO  NHibernate.Cfg.Configuration [(null)] - checking mappings queue
+2016-03-14 18:36:05,296 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing one-to-many association mappings
+2016-03-14 18:36:05,297 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing one-to-one association property references
+2016-03-14 18:36:05,297 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing foreign key constraints
+2016-03-14 18:36:05,298 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing filters (second pass)
+2016-03-14 18:36:05,298 [12] INFO  NHibernate.Connection.ConnectionProvider [(null)] - Configuring ConnectionProvider
+2016-03-14 18:36:05,299 [12] INFO  NHibernate.Driver.DriverBase [(null)] - setting ADO.NET command timeout to 5 seconds
+2016-03-14 18:36:05,300 [12] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] - Obtaining IDbConnection from Driver
+2016-03-14 18:36:05,301 [12] DEBUG NHibernate.Tool.hbm2ddl.SchemaExport [(null)] - 
+    PRAGMA foreign_keys = OFF
+2016-03-14 18:36:05,302 [12] DEBUG NHibernate.Tool.hbm2ddl.SchemaExport [(null)] - 
+    PRAGMA foreign_keys = ON
+2016-03-14 18:36:05,302 [12] DEBUG NHibernate.Connection.ConnectionProvider [(null)] - Closing connection
+2016-03-14 18:36:05,303 [12] DEBUG NHibernate.Connection.ConnectionProvider [(null)] - Disposing of ConnectionProvider.
+2016-03-14 18:36:05,303 [12] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] - Checking 0 named HQL queries
+2016-03-14 18:36:05,303 [12] DEBUG NHibernate.Impl.SessionFactoryImpl [(null)] - Checking 0 named SQL queries
+2016-03-14 18:36:05,304 [12] DEBUG NHibernate.Impl.SessionImpl [(null)] - [session-id=46f51a05-04af-4855-a720-4ad69e4d48ea] opened session at timestamp: 635935773653, for session factory: [/f3d4b4b153644e79ade0cdc8972c2473]
+2016-03-14 18:36:05,306 [12] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] - Obtaining IDbConnection from Driver
+2016-03-14 18:36:05,307 [12] INFO  NHibernate.Dialect.Dialect [(null)] - Using dialect: NHibernate.Dialect.SQLiteDialect
+2016-03-14 18:36:05,307 [12] INFO  NHibernate.Dialect.Dialect [(null)] - Using dialect: NHibernate.Dialect.SQLiteDialect
+2016-03-14 18:36:05,308 [12] INFO  NHibernate.Connection.ConnectionProvider [(null)] - Configuring ConnectionProvider
+2016-03-14 18:36:05,308 [12] INFO  NHibernate.Driver.DriverBase [(null)] - setting ADO.NET command timeout to 5 seconds
+2016-03-14 18:36:05,308 [12] DEBUG NHibernate.Connection.DriverConnectionProvider [(null)] - Obtaining IDbConnection from Driver
+2016-03-14 18:36:05,310 [12] DEBUG NHibernate.Connection.ConnectionProvider [(null)] - Closing connection
+2016-03-14 18:36:05,310 [12] INFO  NHibernate.Dialect.Dialect [(null)] - Using dialect: NHibernate.Dialect.SQLiteDialect
+2016-03-14 18:36:05,311 [12] INFO  NHibernate.Cfg.Configuration [(null)] - checking mappings queue
+2016-03-14 18:36:05,312 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing one-to-many association mappings
+2016-03-14 18:36:05,313 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing one-to-one association property references
+2016-03-14 18:36:05,314 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing foreign key constraints
+2016-03-14 18:36:05,314 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing filters (second pass)
+2016-03-14 18:36:05,314 [12] INFO  NHibernate.Cfg.Configuration [(null)] - checking mappings queue
+2016-03-14 18:36:05,315 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing one-to-many association mappings
+2016-03-14 18:36:05,316 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing one-to-one association property references
+2016-03-14 18:36:05,317 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing foreign key constraints
+2016-03-14 18:36:05,318 [12] INFO  NHibernate.Cfg.Configuration [(null)] - processing filters (second pass)
+2016-03-14 18:36:05,319 [12] DEBUG NHibernate.Tool.hbm2ddl.SchemaExport [(null)] - 
+    PRAGMA foreign_keys = OFF
+2016-03-14 18:36:05,319 [12] DEBUG NHibernate.Tool.hbm2ddl.SchemaExport [(null)] - 
+    PRAGMA foreign_keys = ON
